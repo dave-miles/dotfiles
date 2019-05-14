@@ -17,6 +17,8 @@
   autocrlf = input
 [merge]
   ff = only
+	tool = vimdiff
+	conflictstyle = diff3
 [commit]
   template = ~/.gitmessage
 [fetch]
@@ -27,3 +29,5 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[mergetool]
+	prompt = false
